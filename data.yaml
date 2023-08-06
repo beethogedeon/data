@@ -1,0 +1,13 @@
+train: ./train/images
+val: ./valid/images
+test: ./test/images
+
+nc: 4
+names: ['Alligator Cracks', 'Longitudinal Cracks', 'Potholes', 'Transverse Cracks']
+
+roboflow:
+  workspace: roadscan-b2pvw
+  project: roadscan-sypk2
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/roadscan-b2pvw/roadscan-sypk2/dataset/2
